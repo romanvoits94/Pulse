@@ -53,10 +53,15 @@
         font-size: 16px;
         font-weight: 500;
         margin-top: 18px;
+
         a {
             color: #fff;
             text-transform: uppercase;
             text-decoration: underline;
+
+            &:hover {
+                text-decoration: none;
+            }
         }
     }
 }
